@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Inter", sans-serif; /* aplica Inter em tudo */
+}
+
+body {
+    background-image: url(./assets/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    color: var(--text-color);
+    background: var(--bg-url) no-repeat center top / cover;
+    font-family: "Inter", sans-serif;
+    
+}
+
+#container {
+    width: 360px;
+    margin: 56px auto 0px;
+    margin-top: 56px;
+}
+
+#profile {
+    text-align: center;
+    padding: 24px;
+    color: var(--text-color); 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#profile img {
+    width: 112px;
+}
+
+
+#profile p {
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+
+#profile ul {
+    color: var(--text-color); 
+    list-style: none;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+#profile ul li {
+    color: var(--text-color);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+#profile ul li a {
+    color: inherit;
+}
+
+/*links*/
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+
+ul li a {
+    display: flex;
+    align-items: center;
+    height: 52px;
+    justify-content: center;
+    padding: 16px 24px;
+
+    background: var(--surface-color);
+    border: 1.5px solid var(--border-color);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+
+    text-decoration: none;
+    font-weight: 500;
+
+    transition: background 0.2s;
+}
+
+
+ul li a:hover {
+    background: var(--surface-hover); 
+    border: 2px solid var(--border-color);
+    padding: 16px 24px; 
+}
+
+.light ul li a:hover {
+    background: rgba(0, 0, 0, 0.1); 
+}
+
+
+#social-links {
+    display: flex;
+    gap: 16px;
+    padding: 24px 0;
+    justify-content: center;
+
+    margin-top: 16px;
+
+    align-items: center;
+}
+
+#social-links ion-icon {
+    color: var(--text-color);
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 160ms ease, opacity 160ms ease;
+}
+
+#social-links ion-icon:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}
+
+footer {
+    font-family: inherit;
+    color: var(--text-color);
+    text-align: center;
+    font-size: 14px;
+    padding: 24px 0;
+}
+
+footer a {
+    color: var(--text-color);
+    text-decoration: underline;
+    width: fit-content;
+}
+
+:root {
+    --text-color: white;
+    --bg-url: url(./assets/bg-mobile.jpg);
+    --surface-color: rgba(0, 0, 0, 0.18); 
+    --surface-hover: rgba(0, 0, 0, 0.3);
+    --surfcace-color-hover: rgba(0, 0, 0, 0.02);
+    --border-color: rgba(255, 255, 255, 0.3); 
+    --stroke-color: rgba(255, 255, 255, 0.5);
+    --highlight-color: rgba(0, 0, 0, 0.1);
+    --switch-bg-url: url(./assets/moon-stars.svg);
+}
+
+.light {
+    --text-color: black;
+    --bg-url: url(./assets/bg-mobile-light.jpg);
+    --surface-color: rgba(0, 0, 0, 0.06); 
+    --surface-hover: rgba(0, 0, 0, 0.12); 
+    --surfcace-color-hover: rgba(0, 0, 0, 0.02);
+    --highlight-color: rgba(0, 0, 0, 0.01);
+    --border-color: rgba(0, 0, 0, 0.18); 
+    --stroke-color: rgba(0, 0, 0, 0.5);
+    --switch-bg-url: url(./assets/sun.svg);
+}
+
+#switch {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px; 
+}
+
+
+#switch span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    width: 46px;
+    height: 24px;
+    background: var(--surface-color);
+    border: 1px solid var(--stroke-color);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 9999px;
+    padding-left: 4px; 
+    position: relative;
+    margin: 4px auto;
+}
+
+#switch button {
+    width: 26px; 
+    height: 26px; 
+    background: white var(--switch-bg-url) no-repeat center center / 18px; 
+    border-radius: 50%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    margin-left: -8px; 
+    transform: translateX(-1px); 
+    transition: transform 200ms ease, margin 200ms ease; 
+}
+
+
+.light #switch span {
+    justify-content: flex-end; 
+    padding-right: 4px;
+    padding-left: 0;
+}
+
+.light #switch button {
+    margin-right: -8px;  
+    margin-left: 0;
+    transform: translateX(1px); 
+}
