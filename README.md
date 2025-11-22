@@ -1,4 +1,8 @@
-﻿<h1 align="center">primeiro teste</h1>
+ Este é meu primeiro projeto oficial como estudante de programaçao, desenvolvido durante aulas do maik brito no curso discover da rockeseat.
+ 
+ 
+ 
+ <h1 align="center">primeiro teste</h1>
 
 <p align="center">
 Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
@@ -45,4 +49,5 @@ Esse projeto está sob a licença MIT.
 ---
 
 Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+
 
