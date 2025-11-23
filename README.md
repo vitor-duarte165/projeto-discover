@@ -1,11 +1,7 @@
- Este é meu primeiro projeto oficial como estudante de programaçao, desenvolvido durante aulas do maik brito no curso discover da rockeseat.
- 
- 
- 
- <h1 align="center">primeiro teste</h1>
+ <h1 align="center">Projeto Discover</h1>
 
 <p align="center">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
+Este é meu primeiro projeto oficial como estudante de programação, desenvolvido durante aulas do Maik Brito no curso discover da rockeseat.
 </p>
 
 <p align="center">
@@ -22,7 +18,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
-  <img alt="projeto devlinks" src=".github/cover.jpg" width="100%">
+  <img alt="projeto devlinks" src=".github/image.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -49,5 +45,3 @@ Esse projeto está sob a licença MIT.
 ---
 
 Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
-
-
